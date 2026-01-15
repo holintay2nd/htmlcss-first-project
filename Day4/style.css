@@ -2,7 +2,6 @@ body {
     display: contents;
 }
 
-
 .navbar {
     display: flex;
     padding: 20px;
@@ -54,7 +53,7 @@ body {
 }
 
 .body {
-    min-height: calc(100vh - 60px);
+    min-height: calc(100vh - 80px);
     display: flex;
     flex-direction: column;
 }
