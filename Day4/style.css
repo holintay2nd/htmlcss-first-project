@@ -4,7 +4,7 @@ body {
 
 .navbar {
     display: flex;
-    padding: 20px;
+    padding: 15px;
     justify-content: flex-end;
     align-items: center;
 }
