@@ -73,7 +73,7 @@ body {
 }
 
 .search-box {
-    width: min(600px, 90vw);
+    width: min(650px, 90vw);
     height: 46px;
     margin: 10px auto;
 
@@ -116,7 +116,7 @@ body {
 }
 
 .button-area {
-    padding: 18px 0px;
+    padding: 10px 0px;
 }
 
 .button-style {
