@@ -140,7 +140,6 @@ body {
 }
     .footer-upper {
         display: flex;
-        align-items:stretch;
         justify-content: space-between;
         padding-top: 80px;
         padding-bottom: 50px;
@@ -169,12 +168,12 @@ body {
                 color:white;
                 font-size: 25px;
                 background-color: #222322;
-                width: 54px;
+                width: 54px !important;
                 height: 54px;
                 border-radius: 50%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                display: flex !important;
+                justify-content: center !important;
+                align-items: center !important;
                 margin-right: 10px;
             }
 
