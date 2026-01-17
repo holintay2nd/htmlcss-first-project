@@ -1,0 +1,212 @@
+body {
+    margin: 0px;
+}
+
+.hover:hover {
+    color: #1ed760;
+}
+
+.white {
+    color: white;
+}
+
+.grey {
+    color: #919496;
+}
+
+.green {
+    color: #1ed760;
+}
+
+.sans-serif {
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+
+
+.navbar {
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+    .nav-area {
+        width: 1170px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navbar-logo {
+        height: 35px;
+    }
+
+    .navbar-text {
+        display: flex;
+        justify-content: center;
+    }
+
+    .text-style {
+        text-decoration: none;
+        padding-left: 20px;
+    }
+
+
+
+.main {
+    height: 968px;
+    background-color: rgb(41, 65, 171);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image:url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size: 175%;
+    background-position: 46% 4%;
+}
+    .headline {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+        .m-font-b {
+            color: #1ed760;
+            font-size: 146px;
+            font-weight: 900;
+            font-family: spotify-circular, Helvetica, Arial, sans-serif;
+        }
+
+        .b-upper {
+            position: relative;
+            right: 160px;
+            width: fit-content;
+
+        }
+
+        .b-under {
+            position: relative;
+            left: 160px;
+            width: fit-content;
+        }
+
+        .m-font-s {
+            color: #1ed760;
+            font-size: 18px;
+            text-align: center;
+            font-family: spotify-circular, Helvetica, Arial, sans-serif;
+            margin-top: 50px;
+
+        }
+        .m-middle {
+            text-align: center;
+            margin-top: 30px;
+            width: fit-content;
+        }
+
+            .m-m-button {
+                background-color: #1ed760;
+                font-family: spotify-circular, Helvetica, Arial, sans-serif;
+                color: #2941ab;
+                border-radius: 500px;
+                border: none;
+                font-size: 16px;
+                width: 180px;
+                height: 40px;
+                font-weight: 700;
+            }
+
+            .m-m-button:hover {
+                transform: scale(1.07);
+                background-color:#2de26d; 
+                cursor: pointer;
+            }
+
+        
+
+.footer {
+    height: 530px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    .footer-upper {
+        display: flex;
+        align-items:stretch;
+        justify-content: space-between;
+        padding-top: 80px;
+        padding-bottom: 50px;
+        width: 1170px;
+    }
+        .upper-left {
+            display: flex;
+            justify-content: space-between;
+            width: 700px;
+        }
+
+            .footer-logo {
+                height: 35px;
+            }
+            .footer-upper-text {
+                text-decoration: none;
+                display: flex;
+                padding-top: 12px;
+            }
+        
+
+        .upper-right {
+            display:flex;
+        }
+            .footer-icon {
+                color:white;
+                font-size: 25px;
+                background-color: #222322;
+                width: 54px;
+                height: 54px;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-right: 10px;
+            }
+
+    .footer-middle {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 120px;
+        width: 1170px;
+    }
+            .middle-left {
+                display: flex;
+                width: 50%;            
+            
+            }
+            .middle-right {
+                display: flex;
+                width: 50%;
+                justify-content: flex-end;
+                font-size: 12px;
+            }
+
+    .footer-under {
+        width: 1170px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+    }
+        
+        .footer-under-text {
+            text-decoration: none;
+            }
+
+            .left {
+            padding-right: 20px;
+            }
